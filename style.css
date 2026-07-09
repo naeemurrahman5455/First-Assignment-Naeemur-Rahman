@@ -1,0 +1,86 @@
+/* Google Font Link  */
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Common Style Start  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Common Style End  */
+
+/* Header Style Start  */
+
+header{
+    width: 1280px; 
+    height: 98px;
+    background-color: #FFFFFF;
+}
+
+.Nav-main-Container{
+padding: 10px 60px 0px 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.logo-container img{
+    width: 134px;
+    height: 44px;
+}
+.menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.menu-item li a{
+    font-size: 16px;
+    line-height: 26.6px;
+    font-family: "Inter", sans-serif;
+    color: #575757;
+}
+
+.header-button-container button{
+    background-color: #1D4ED8;
+        border: none;
+        width: 188px;
+        height: 48px;
+        border-radius: 12px;
+
+}
+.header-button-container button a{
+    color: #FFFFFF;
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+  
+}
+
+
+
+
+
+/* Header Style End  */
+
+
+
+
+
+
+
+
+
+
+/* Common Style End  */
+
