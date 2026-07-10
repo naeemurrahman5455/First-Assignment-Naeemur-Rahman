@@ -1,86 +1,130 @@
 /* Google Font Link  */
-@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /* Common Style Start  */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  overflow-x: hidden;
 }
 
-a{
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
 /* Common Style End  */
 
 /* Header Style Start  */
 
-header{
-    width: 1280px; 
-    height: 98px;
-    background-color: #FFFFFF;
+header {
+  width: 1280px;
+  height: 80px;
+  background-color: #ffffff;
 }
 
-.Nav-main-Container{
-padding: 10px 60px 0px 60px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-
+.Nav-main-Container {
+  padding: 10px 60px 0px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo-container img{
-    width: 134px;
-    height: 44px;
+.logo-container img {
+  width: 134px;
+  height: 44px;
 }
-.menu-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
+.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
-.menu-item li a{
-    font-size: 16px;
-    line-height: 26.6px;
-    font-family: "Inter", sans-serif;
-    color: #575757;
-}
-
-.header-button-container button{
-    background-color: #1D4ED8;
-        border: none;
-        width: 188px;
-        height: 48px;
-        border-radius: 12px;
-
-}
-.header-button-container button a{
-    color: #FFFFFF;
-      font-family: "Inter", sans-serif;
-      font-weight: 700;
-  
+.menu-item li a {
+  font-size: 16px;
+  line-height: 26.6px;
+  font-family: "Inter", sans-serif;
+  color: #575757;
 }
 
-
-
-
+.header-button-container button {
+  background-color: #1d4ed8;
+  border: none;
+  width: 188px;
+  height: 48px;
+  border-radius: 12px;
+}
+.header-button-container button a {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
 
 /* Header Style End  */
 
+/* Hero Section Design Start  */
 
+.hero-main-container {
+  max-width: 1280px;
+  height: 786px;
+  padding: 0px 60px;
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.85) 0%,
+      rgba(0, 0, 0, 0.75) 25%,
+      /* rgba(0, 0, 0, 0.60) 40%, */ rgba(0, 0, 0, 0.6) 50%,
+      rgba(0, 0, 0, 0.2) 75%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url("./images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Child-content-Container {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Child-content-Container h2 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 80px;
+  color: #ffffff;
+}
+.Child-content-Container p {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  width: 800px;
+}
 
+.child-button-container button {
+  margin-bottom: 80px;
+  padding: 10px 0px 10px 0px;
+  background-color: #1d4ed8;
+  border: none;
+  width: 188px;
+  height: 48px;
+  border-radius: 12px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
 
-
-
-
-
-
-
-/* Common Style End  */
-
+/* Hero Section Design End  */
