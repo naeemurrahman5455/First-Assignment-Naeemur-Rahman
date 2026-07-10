@@ -102,6 +102,8 @@ header {
   font-family: "Inter", sans-serif;
   text-align: center;
   font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -3.2px;
   color: #ffffff;
 }
 .Child-content-Container p {
@@ -127,3 +129,88 @@ header {
 }
 
 /* Hero Section Design End  */
+
+
+
+/* speakers Section Style  Start */
+
+.Speakers-section{
+    max-width: 1280px;
+    background-color: #ffffff;
+    margin-top: 40px;
+       padding-right: 60px;
+       padding-left: 60px;
+       padding-bottom: 60px;
+
+}
+.Speakers-section h2{
+      font-family: "Inter", sans-serif;
+      font-size: 56px;
+      line-height: 64.4px;
+      font-weight: bold;
+      color: #000102;
+      text-align: center;
+      /* padding-bottom: 40px; */
+
+}
+.main-speakers-container{
+    max-width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr ; */
+    gap: 20px;
+}
+
+.andrej-karpathy-Container, .demis-hassabis-container, 
+.gary-marcus-container, .mustafa-suleyman-contaiiner{
+    width: 600px;
+    height: 450px;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    padding-bottom: 20px;
+  
+}
+.andrej-karpathy-Container, .demis-hassabis-container, .gary-marcus-container, .mustafa-suleyman-contaiiner img{
+      width: 595px;
+      overflow: hidden;
+}
+.content-box{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+}
+.content-box h2{
+    text-align: start;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+.position{
+    padding-top: 10px;
+}
+.content-box p{
+    /* padding-top: 12px; */
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+/* peakers Section Style End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
